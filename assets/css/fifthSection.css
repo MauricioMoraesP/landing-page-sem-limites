@@ -1,0 +1,31 @@
+section.fifth-section .parcerias {
+    border: #E4FF3E solid 1px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+section.fifth-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 7em;
+    margin-top: 1em;
+}
+
+section.fifth-section h8 {
+    font-size: 3vh;
+}
+
+@media screen and (max-width: 1000px) {
+    section.fifth-section .parcerias {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+}

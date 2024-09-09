@@ -1,0 +1,69 @@
+.third-section {
+    margin-top: 7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.third-section>div {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.third-section>div:last-child {
+    background: #4c4c4c;
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+    width: 60%;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+    padding: 5%;
+    gap: 1em;
+    margin-top: -47px;
+}
+
+.third-section div:first-child img {
+    width: 100px;
+    height: 80px;
+}
+
+.third-section>h5 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.image-retangulo-circle-thirdS-1,
+.image-retangulo-circle-thirdS-2,
+.sixTriangles-1,
+.sixTriangles-2 {
+    position: absolute;
+    width: 4em;
+}
+
+.image-retangulo-circle-thirdS-1 {
+    left: 0;
+}
+
+.image-retangulo-circle-thirdS-2 {
+    right: 0;
+    bottom: -80px;
+}
+
+.sixTriangles-1 {
+    right: 0;
+    top: -40px;
+}
+
+.sixTriangles-2 {
+    bottom: -40px;
+    rotate: 3.1548rad;
+    left: 10px;
+}

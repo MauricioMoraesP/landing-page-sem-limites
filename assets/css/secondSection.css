@@ -1,0 +1,189 @@
+:root {
+    --color-theme-1: #DAFF45;
+}
+
+.second-section {
+    background: #4c4c4c;
+    margin: 0 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.title {
+    color: var(--color-theme-1);
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: 200;
+    font-size: 50px;
+}
+
+div.second-section-div-1 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 5vw;
+    align-items: center;
+}
+
+div.second-section-div-2 {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    padding: 0 5vw;
+    align-items: center;
+}
+
+div.second-section-div-2 h3 {
+    text-align: end;
+}
+
+div.second-section-div-1>img {
+    width: 100%;
+}
+
+div.second-section-div-1>div {
+    width: 70%;
+}
+
+div.second-section-div-2 p {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+div.second-section-div-2>div>p>span>span {
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--color-theme-1);
+    margin-right: 0.3em;
+}
+
+div.second-section-div-1 p,
+div.second-section-div-2 p {
+    font-family: "Buenard", serif;
+    color: white;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.divisoria-triangulo {
+    width: 90%;
+    padding: 30px;
+}
+
+.pontilhado-triangulos {
+    position: absolute;
+    width: 5vw;
+}
+
+img.pt-1 {
+    left: 0;
+}
+
+img.pt-2 {
+    right: -0.3vw;
+    top: 0.5vw;
+    rotate: 1.6rad;
+}
+
+img.pt-3 {
+    right: 1px;
+    bottom: 1px;
+    rotate: 3.1rad;
+}
+
+img.pt-4 {
+    left: -1px;
+    bottom: 5px;
+    rotate: 4.7rad;
+}
+
+.second-section-div-3 {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+}
+
+.second-section-div-3>p {
+    display: flex;
+    flex-direction: column;
+    font-size: 3vh;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    gap: 0.6em;
+}
+
+.second-section-div-3 p img {
+    margin-right: 15px;
+    width: 20px;
+}
+
+h4.title-2 {
+    margin-top: 2vw;
+    margin-bottom: 0;
+    color: var(--color-theme-1);
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: 200;
+    font-size: 50px;
+}
+
+.second-section-div-3 p span span {
+    color: #DAFF45;
+}
+
+@media screen and (max-width: 1354px) {
+
+    div.second-section-div-1,
+    div.second-section-div-2 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 6vh;
+    }
+
+    div.second-section-div-2 h3 {
+        text-align: center;
+    }
+
+    div.second-section-div-2 p,
+    div.second-section-div-1 p {
+        text-align: center;
+        font-size: 3vh;
+    }
+
+    div.second-section-div-1>img {
+        width: 70%;
+        margin-right: -43px;
+    }
+
+    .divisoria-triangulo {
+        padding: 5em 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    div.second-section-div-1>img,
+    div.second-section-div-2>img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    img.pt-6,
+    img.pt-5 {
+        display: none;
+    }
+
+    button.button-para-voce {
+        font-size: 3vw;
+    }
+}

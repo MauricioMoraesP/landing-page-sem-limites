@@ -1,0 +1,225 @@
+:root {
+    --color-theme-1: #E4FF3E;
+    --color-theme-2: #a3bb42;
+}
+
+body section.introduction-section {
+    height: 87.572vh;
+    position: relative;
+    margin-top: 1vw;
+}
+
+div.div-introduction-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.paragraph-introduction-section {
+    display: flex;
+    align-items: center;
+    width: 20em;
+    color: white;
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 3.5vw;
+    font-weight: 300;
+    text-align: start;
+}
+
+.colchetes-1,
+.colchetes-2 {
+    font-size: 17vw;
+    font-family: "Meera Inimai", sans-serif;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 1vw;
+}
+
+.span-introduction-person {
+    width: 100%;
+}
+
+.person-span {
+    font-family: "Allerta Stencil", sans-serif;
+    color: var(--color-theme-1);
+}
+
+.display-block-class {
+    display: inline;
+    margin-left: 3vw;
+}
+
+button#button-introduction {
+    background: var(--color-theme-2);
+    width: 20vw;
+    height: 6vh;
+    box-shadow: gray 1px;
+    border: none;
+    border-radius: 0.5vw;
+    font-size: 2vw;
+    color: white;
+    margin-left: 16vw;
+    font-family: "Alumni Sans", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+}
+
+img.tracejado-icone-eng,
+img.tracejado-icone-edtech,
+img.image-retangulo-circle-1,
+img.tracejado-icone-auxilio,
+img.image-retangulo-circle-2,
+img.image-retangulo-circle-3,
+img.tracejado-icone-internet {
+    position: absolute;
+}
+
+img.image-retangulo-circle-1 {
+    bottom: 10vh;
+    right: 0;
+    width: 10vw;
+}
+
+img.image-retangulo-circle-2 {
+    top: 1vh;
+    width: 10vw;
+    right: 0;
+}
+
+img.image-retangulo-circle-3 {
+    top: 10vw;
+    width: 10vw;
+}
+
+img.tracejado-icone-internet {
+    width: 13vw;
+    left: 22vw;
+    margin-top: -6vw;
+}
+
+img.tracejado-icone-eng {
+    width: 13vw;
+    left: clamp(26vw, 1vw, 30vw);
+    margin-top: -5vw;
+}
+
+img.tracejado-icone-auxilio {
+    width: 24vw;
+    left: 66vw;
+    margin-top: -3vw;
+}
+
+img.tracejado-icone-edtech {
+    width: 10vw;
+    left: 60vw;
+    margin-top: -6.5vw;
+}
+
+.linha-1,
+.linha-2 {
+    width: 40%;
+    border-bottom: #FFFF 2px dashed;
+}
+
+.linha-1 {
+    margin-left: 30px;
+}
+
+.linha-2 {
+    margin-right: 30px;
+}
+
+.divisoria-linhas-triangulo {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.divisoria-linhas-triangulo img {
+    width: 7vw;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .colchetes-1,
+    .colchetes-2 {
+        font-size: 30vw;
+    }
+
+    .paragraph-introduction-section {
+        font-size: 4.7vw;
+    }
+
+    button#button-introduction {
+        width: 30vw;
+        font-size: 2.5vw;
+    }
+
+    img.tracejado-icone-internet {
+        width: 15vw;
+        left: 12vw;
+        margin-top: -1vw;
+    }
+
+    img.tracejado-icone-eng {
+        width: 16vw;
+        left: 20vw;
+        margin-top: -11vw;
+    }
+
+    img.tracejado-icone-auxilio {
+        width: 30vw;
+        left: 70vw;
+        margin-top: 1vw;
+    }
+
+    img.tracejado-icone-edtech {
+        width: 15vw;
+        left: 60vw;
+        margin-top: -13vw;
+    }
+}
+
+@media screen and (max-width: 781px) {
+    button#button-introduction {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .colchetes-1,
+    .colchetes-2,
+    img.tracejado-icone-internet,
+    img.tracejado-icone-eng,
+    img.tracejado-icone-auxilio,
+    img.tracejado-icone-edtech {
+        display: none;
+    }
+
+    .paragraph-introduction-section {
+        font-size: 5vh;
+        width: 95%;
+        text-align: center;
+        border: #a3bb42 1px;
+        margin-left: 0;
+    }
+
+    button#button-introduction {
+        margin-left: 0;
+        font-size: 1.5em;
+        width: 40vh;
+    }
+
+    .display-block-class {
+        margin-left: 0;
+        background-color: rgba(255, 255, 255, 0.11);
+        margin: 0 0.1em 0 0.1em;
+    }
+}
