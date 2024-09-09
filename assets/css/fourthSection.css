@@ -1,11 +1,3 @@
-/* General Section Styles */
-.fourth-section {
-    padding: 20px;
-    text-align: center;
-    margin-top: 7em;
-    position: relative;
-}
-
 .fourth-section>div {
     background: #4c4c4c;
     display: grid;
@@ -13,34 +5,13 @@
     text-align: center;
 }
 
-.fourth-section>div>div:first-child,
-.fourth-section>div>div:last-child {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1em;
-    padding: 30px 63px;
-}
-
-.fourth-section p {
-    display: flex;
-    flex-direction: column;
-    font-size: 25px;
-    color: white;
-    font-family: "Inter", sans-serif;
-    font-weight: 200;
-    gap: 1em;
-    align-items: center;
+.fourth-section {
+    padding: 20px;
     text-align: center;
+    margin-top: 7em;
+    position: relative;
 }
 
-.fourth-section p:first-child span {
-    font-size: 28px;
-    font-weight: 300;
-    gap: 0.6em;
-}
-
-/* Span Divider Styles */
 div.span1 {
     border-right: #DAFF45 1px solid;
     width: 1px;
@@ -67,19 +38,64 @@ div.div-divisoria {
     align-items: center;
 }
 
-/* Heading Styles */
 h7 {
     color: white;
-    font-family: "Alumni Sans", sans-serif;
+    font-family: "Alumni Sans",
+        sans-serif;
     font-size: 50px;
     text-align: center;
 }
 
-h6 {
-    margin: 0;
+
+.fourth-section>div>div:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding: 30px 63px 30px 63px;
 }
 
-/* Button Styles */
+.fourth-section>div>div:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding: 30px 63px 30px 63px;
+}
+
+.fourth-section p {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    gap: 1em;
+    align-items: center;
+    text-align: center;
+}
+
+.fourth-section p:first-child span {
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    gap: 0.6em;
+    align-items: center;
+    text-align: center;
+    font-weight: 300;
+}
+
+
+
+
+.fourth-section p span img {
+    width: 30px;
+}
+
+
 button.button-para-voce {
     background: #a3bb42;
     width: 20vw;
@@ -89,18 +105,13 @@ button.button-para-voce {
     border-radius: 0.5vw;
     font-size: 2vw;
     color: white;
-    font-family: "Alumni Sans", sans-serif;
+    font-family: "Alumni Sans",
+        sans-serif;
     font-style: italic;
     font-weight: 600;
 }
 
-.div-button-para-voce {
-    height: 100%;
-    display: flex;
-    align-items: end;
-}
 
-/* Special Paragraph Styles */
 p.paragraph-especial {
     display: inline;
 }
@@ -109,10 +120,31 @@ p.paragraph-especial {
     color: #DAFF45;
 }
 
-/* Image Styles */
+
+h6 {
+    margin: 0;
+}
+
+
+
+.fourth-section div:first-child p span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.div-button-para-voce {
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+
+
+
 img.pt-5 {
     left: 20px;
-    top: 5.3vh;
+    top: 80px;
 }
 
 img.pt-6 {
@@ -121,59 +153,75 @@ img.pt-6 {
     rotate: 3.1rad;
 }
 
-.fourth-section p span img {
-    width: 30px;
-}
-
-/* Responsive Styles */
 @media screen and (max-width: 1354px) {
     img.pt-5 {
-        top: 11.5vw;
+        left: 20px;
+        top: 130px;
     }
+
 }
 
 @media screen and (max-width: 1000px) {
-    /* Additional styles for 1000px width can be added here */
+    /* .fourth-section>div>div {
+        padding: 10px 20px 10px 20px;
+        gap: 0;
+    } */
+
 }
 
 @media screen and (max-width: 781px) {
+
     .fourth-section>div {
         display: flex;
         flex-direction: column;
     }
 
     div.div-divisoria {
+        display: flex;
         flex-direction: row;
         gap: 5px;
     }
 
-    div.span1,
-    div.span2,
-    div.span3 {
+    div.span1 {
         border-top: #DAFF45 1px solid;
-        height: 1px;
         width: 30%;
+        height: 1px;
         margin-bottom: 3px;
     }
 
     div.span2 {
         border-top: #DAFF45 6px dotted;
         width: 40%;
+        height: 1px;
+
+    }
+
+    div.span3 {
+        border-top: #DAFF45 1px solid;
+        width: 30%;
+        height: 1px;
+        margin-bottom: 3px;
     }
 
     button.button-para-voce {
         font-size: 3vw;
     }
+
 }
+
 
 @media screen and (max-width: 600px) {
 
-    img.pt-5,
-    img.pt-6 {
+    img.pt-6,
+    img.pt-5 {
         display: none;
     }
 
     button.button-para-voce {
         font-size: 3vw;
     }
+
+
+
+
 }
