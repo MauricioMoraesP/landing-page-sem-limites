@@ -114,6 +114,11 @@ button.button-para-voce {
 
 p.paragraph-especial {
     display: inline;
+    margin: 20px 0 0 0px;
+}
+
+span.space {
+    margin-top: 20px;
 }
 
 #semLimitesName {
