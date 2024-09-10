@@ -66,6 +66,12 @@ button#button-introduction {
     font-weight: 600;
 }
 
+#button-introduction:hover {
+    width: 20.2vw;
+    font-size: 2.1vw;
+    background: #7f9234;
+}
+
 img.tracejado-icone-eng,
 img.tracejado-icone-edtech,
 img.image-retangulo-circle-1,
@@ -160,6 +166,8 @@ img.tracejado-icone-edtech {
         width: 30vw;
         font-size: 2.5vw;
     }
+
+
 
     img.tracejado-icone-internet {
         width: 15vw;
