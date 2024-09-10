@@ -75,24 +75,25 @@ div.second-section-div-2 p {
 }
 
 img.pt-1 {
-    left: 0;
+    left: 3px;
+    top: 5px;
 }
 
 img.pt-2 {
-    right: -0.3vw;
+    right: -0.2vw;
     top: 0.5vw;
     rotate: 1.6rad;
 }
 
 img.pt-3 {
-    right: 1px;
-    bottom: 1px;
-    rotate: 3.1rad;
+    right: 4px;
+    bottom: 3px;
+    rotate: 3.12rad;
 }
 
 img.pt-4 {
-    left: -1px;
-    bottom: 5px;
+    left: -7px;
+    bottom: 18px;
     rotate: 4.7rad;
 }
 

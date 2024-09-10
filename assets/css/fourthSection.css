@@ -144,13 +144,13 @@ h6 {
 
 img.pt-5 {
     left: 20px;
-    top: 80px;
+    top: 83px;
 }
 
 img.pt-6 {
-    right: 20px;
-    bottom: 20px;
-    rotate: 3.1rad;
+    right: 25px;
+    bottom: 22px;
+    rotate: 3.12rad;
 }
 
 @media screen and (max-width: 1354px) {
