@@ -76,7 +76,7 @@ div.second-section-div-2 p {
 
 img.pt-1 {
     left: 3px;
-    top: 5px;
+    top: 2px;
 }
 
 img.pt-2 {
@@ -87,13 +87,13 @@ img.pt-2 {
 
 img.pt-3 {
     right: 4px;
-    bottom: 3px;
+    bottom: 1px;
     rotate: 3.12rad;
 }
 
 img.pt-4 {
     left: -3px;
-    bottom: 7px;
+    bottom: 4px;
     rotate: 4.7rad;
 }
 
@@ -175,16 +175,13 @@ h4.title-2 {
     div.second-section-div-2>img {
         width: 80%;
     }
-}
 
-@media screen and (max-width: 600px) {
-
-    img.pt-6,
-    img.pt-5 {
+    img.pt-1,
+    img.pt-2,
+    img.pt-3,
+    img.pt-4 {
         display: none;
     }
-
-    button.button-para-voce {
-        font-size: 3vw;
-    }
 }
+
+@media screen and (max-width: 600px) {}
