@@ -154,11 +154,11 @@ img.pt-6 {
 }
 
 @media screen and (max-width: 1354px) {
-    img.pt-5 {
-        left: 20px;
-        top: 130px;
-    }
 
+
+    h6.title {
+        font-size: 50px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
